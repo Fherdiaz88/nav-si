@@ -1,0 +1,17 @@
+<div [@zoomIn]>
+  <ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-title>Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content [fullscreen]="true" class="ion-padding">
+    <ion-button expand="block" (click)="irasettings()">
+      Ir a Settings
+    </ion-button>
+    <ion-button expand="block" color="danger" (click)="logout()">
+      Cerrar sesión
+    </ion-button>
+
+  </ion-content>
+</div>
