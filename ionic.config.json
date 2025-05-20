@@ -1,0 +1,7 @@
+{
+  "name": "nav-si",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
